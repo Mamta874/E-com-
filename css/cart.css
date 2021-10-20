@@ -1,0 +1,84 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+.cart img{
+    position: relative;
+    top: 90px;
+    right: -70px;
+    width: 450px;
+    height: 550px;
+}
+.cart p{
+    text-align: center;
+    position: relative;
+    top: -450px;
+    right: 180px;
+    font-size: 30px;
+}
+
+.cart form{
+    text-align: center;
+    position: relative;
+    top: -450px;
+    right: 35px;
+    font-size: 30px;
+}
+#cars{
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    font-size: 20px;
+    width: 200px;
+}
+
+.piece form{
+    text-align: center;
+    position: relative;
+    top: -450px;
+    right: 35px;
+    font-size: 30px;
+}
+
+#piece{
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    font-size: 20px;
+    width: 200px;
+}
+.btn8{
+    position: fixed;
+    position: absolute;
+    top: 140%;
+    right: 25.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}

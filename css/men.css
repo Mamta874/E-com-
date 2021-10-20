@@ -1,0 +1,248 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+
+.men{
+    font-size: 30px;
+    text-align: center;
+}
+
+.men img{
+    width: 24%;
+    height: 450px;
+    cursor: pointer;
+}
+
+.btna{
+    position: fixed;
+    position: absolute;
+    top: 70%;
+    right: 62.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnb{
+    position: fixed;
+    position: absolute;
+    top: 70%;
+    right: 38.20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnc{
+    position: fixed;
+    position: absolute;
+    top: 70%;
+    right: 13.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnd{
+    position: fixed;
+    position: absolute;
+    top: 70%;
+    right: -10.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btne{
+    position: fixed;
+    position: absolute;
+    top: 137%;
+    right: 62.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnf{
+    position: fixed;
+    position: absolute;
+    top: 137%;
+    right: 38.20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btng{
+    position: fixed;
+    position: absolute;
+    top: 137%;
+    right: 13.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnh{
+    position: fixed;
+    position: absolute;
+    top: 137%;
+    right:  -10.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btni{
+    position: fixed;
+    position: absolute;
+    top: 204%;
+    right: 62.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnj{
+    position: fixed;
+    position: absolute;
+    top: 204%;
+    right: 38.20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnk{
+    position: fixed;
+    position: absolute;
+    top: 204%;
+    right: 13.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
+.btnl{
+    position: fixed;
+    position: absolute;
+    top: 204%;
+    right: -10.70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #303132;
+    color: white;
+    width: 24%;
+    height: 47px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    outline: none;
+    opacity: 1.0;
+    cursor: pointer;
+    border: none;
+}
